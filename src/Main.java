@@ -6,7 +6,7 @@ public class Main {
 
         int bonus;
 
-        if(allAmount>=1000) {
+        if (allAmount >= 1000) {
             bonus = allAmount / bonusClient;
         } else {
             bonus = 0;
@@ -14,6 +14,6 @@ public class Main {
 
         int Account = clientAccount + allAmount + bonus;
 
-        System.out.println ("При пополнении баланса на сумму" + allAmount + "руб. бонус составил сумму" + bonus + "руб. Ваш баланс" + Account + "руб.");
+        System.out.println("При пополнении баланса на сумму" + allAmount + "руб. бонус составил сумму" + bonus + "руб. Ваш баланс" + Account + "руб.");
     }
 }
